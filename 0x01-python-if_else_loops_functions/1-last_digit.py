@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 import random
 number = random.randint(-10000, 10000)
-# YOUR CODE HERE
 lastDigit = int(repr(number)[-1])
 if (lastDigit == 0):
 	print (F"Last digit of {number:d} is {lastDigit:d} and is 0")
