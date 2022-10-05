@@ -1,6 +1,5 @@
 #!/usr/bin/node
-/*
-myVar = constant variable
-*/
+
+'use strict';
 const myVar = 'JavaScript is amazing';
 console.log(myVar);
